@@ -33,10 +33,28 @@ Free Plan
 	a. You can run as a console app in Visual Studio
 	b. You can run in the cli
 	
-		- Open a terminal at the projects root path and run 
+		- Open a terminal at the projects root path and run
+
 		```cli
 		dotnet pack
 		```
+
+		This will build our app to run as a cli tool
+
+		Next we run the following
+
+		```cli
+		dotnet tool install --global --add-source ./nupkg weather.cli
+		```
+
+		should get a success message
+
+		now we can run it with ...
+
+		```cli
+		weather Chicago
+		```
+
 
 
 ## How To convert a Console App into a CLI tool
