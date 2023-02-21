@@ -60,8 +60,10 @@ should get a success message
 
 now we can run it in a terminal with ...
 
+We can specify city,country when running as well
+
 ```cli
-weather Chicago
+weather Chicago,US
 ```
 
 ![image](https://user-images.githubusercontent.com/20805058/220462821-649431de-7dbd-4927-9fdd-56cf0316b8dc.png)
