@@ -49,7 +49,7 @@ Free Plan
 
 		should get a success message
 
-		now we can run it with ...
+		now we can run it in a terminal with ...
 
 		```cli
 		weather Chicago
