@@ -31,6 +31,7 @@ Free Plan
 4. Run the app 
 
 a. You can run as a console app in Visual Studio
+
 b. You can run in the cli
 
 	- Open a terminal at the projects root path and run
