@@ -7,6 +7,11 @@
     <Nullable>enable</Nullable>
     <UserSecretsId>d83c21ca-b3ce-4b91-910d-498fd200e0bf</UserSecretsId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+	<!-- Additions to run as a CLI tool -->
+	<PackAsTool>true</PackAsTool>
+	<!--Name of how to invoke the cli tool-->
+	<ToolCommandName>weather</ToolCommandName>
+	<PackageOutputPath>./nupkg</PackageOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
